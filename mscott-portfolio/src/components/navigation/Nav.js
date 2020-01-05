@@ -5,12 +5,24 @@ import styled from "styled-components";
 const NewNav = styled(Nav)`
   display: flex;
   justify-content: space-between;
-  border-bottom: solid 2 px #49344b;
+  // border-bottom: solid 2 px #49344b;
 `;
+
+// const NewContainer = styled(Container)`
+//   border-bottom: solid 2px #49344b;
+// `;
+
+// const NewLink = styled("navlink")`
+//   font-size: 1.5rem;
+//   color: #3f3c4c;
+//   $:hover {
+//     color: #acacb4;
+//   }
+// `;
 
 const Navigation = props => {
   return (
-    <Container>
+    <Container fluid>
       <NewNav>
         <NavItem>
           <NavLink href="/">Home</NavLink>

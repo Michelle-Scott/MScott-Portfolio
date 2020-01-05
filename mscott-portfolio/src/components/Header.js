@@ -17,6 +17,7 @@ const NewDiv = styled.div`
   font-size: 2rem;
   color: #1d7b7e;
   border-bottom: solid 2px #1d7b7e;
+  padding: 5%;
 `;
 
 const NewImg = styled.img`
@@ -31,7 +32,7 @@ const IconDiv = styled.div`
 
 const Header = () => {
   return (
-    <Container>
+    <Container fluid>
       <Row>
         <Col xl="6" sm="12">
           <NewImg src={MainImg} />

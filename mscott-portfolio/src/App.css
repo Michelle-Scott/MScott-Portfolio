@@ -1,15 +1,7 @@
 .App {
   text-align: center;
-}
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
+  width: 100%;
 }
 
 svg {
@@ -19,4 +11,14 @@ svg {
 
 svg:hover {
   color: #957d7f;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #407c7f;
+}
+
+.nav-link:hover {
+  color: #acacb4;
 }
