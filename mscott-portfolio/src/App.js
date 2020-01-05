@@ -1,12 +1,15 @@
 import React from "react";
+import { Container } from "reactstrap";
+import Navigation from "./components/navigation/Nav";
+import Header from "./components/Header";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"></header>
-      <h1>Michelle Scotts Portfolio</h1>
-    </div>
+    <Container>
+      <Navigation />
+      <Header />
+    </Container>
   );
 }
 
