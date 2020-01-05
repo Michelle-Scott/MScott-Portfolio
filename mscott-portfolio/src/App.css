@@ -11,3 +11,12 @@
   font-size: calc(10px + 2vmin);
   color: black;
 }
+
+svg {
+  font-size: 3rem;
+  color: #407c7f;
+}
+
+svg:hover {
+  color: #957d7f;
+}
