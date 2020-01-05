@@ -5,7 +5,8 @@ import styled from "styled-components";
 const NewNav = styled(Nav)`
   display: flex;
   justify-content: space-between;
-  // border-bottom: solid 2 px #49344b;
+  background: #407c7f;
+  padding: 1.5%;
 `;
 
 // const NewContainer = styled(Container)`
@@ -22,7 +23,8 @@ const NewNav = styled(Nav)`
 
 const Navigation = props => {
   return (
-    <Container fluid>
+    <>
+      {/* // <Container fluid> */}
       <NewNav>
         <NavItem>
           <NavLink href="/">Home</NavLink>
@@ -43,7 +45,8 @@ const Navigation = props => {
           <NavLink href="/blog">Blog</NavLink>
         </NavItem>
       </NewNav>
-    </Container>
+      {/* </Container> */}
+    </>
   );
 };
 

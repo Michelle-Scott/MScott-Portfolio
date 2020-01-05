@@ -3,6 +3,7 @@ import { Container } from "reactstrap";
 import Navigation from "./components/navigation/Nav";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
+import Skills from "./components/Skills";
 
 import "./App.css";
 
@@ -12,6 +13,7 @@ function App() {
       <Navigation />
       <Header />
       <AboutMe />
+      <Skills />
     </div>
   );
 }

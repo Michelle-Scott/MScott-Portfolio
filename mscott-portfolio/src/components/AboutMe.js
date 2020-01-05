@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 import styled from "styled-components";
 
 const ColorDiv = styled.div`
-  background: #5f7a82;
+  background: #407c7f;
   color: white;
   padding: 5%;
   margin-top: 5%;
