@@ -5,7 +5,7 @@ import styled from "styled-components";
 const NewNav = styled(Nav)`
   display: flex;
   justify-content: space-between;
-  // background: white;
+
   padding: 1.5%;
 `;
 
@@ -27,22 +27,34 @@ const Navigation = props => {
       {/* // <Container fluid> */}
       <NewNav>
         <NavItem>
-          <NavLink href="/">Home</NavLink>
+          <NavLink className="hvr-grow" href="/">
+            Home
+          </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/skills">Skills</NavLink>
+          <NavLink className="hvr-grow" href="/skills">
+            Skills
+          </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/projects">Projects</NavLink>
+          <NavLink className="hvr-grow" href="/projects">
+            Projects
+          </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/about-me">About Me</NavLink>
+          <NavLink className="hvr-grow" href="/about-me">
+            About Me
+          </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/contact">Contact</NavLink>
+          <NavLink className="hvr-grow" href="/contact">
+            Contact
+          </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/blog">Blog</NavLink>
+          <NavLink className="hvr-grow" href="/blog">
+            Blog
+          </NavLink>
         </NavItem>
       </NewNav>
       {/* </Container> */}

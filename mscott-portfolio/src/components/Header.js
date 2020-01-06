@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
+import Typist from "react-typist";
 import MainImg from "../assets/images/Michelle2-Portfolio.png";
 import {
   FaGithub,
@@ -45,24 +46,43 @@ const Header = () => {
           <NewImg src={MainImg} />
         </Col>
         <Col xl="6" md="6" xs="12">
-          <NewDiv>Full-Stack Web Developer</NewDiv>
+          <NewDiv>
+            <Typist>Full-Stack Web Developer</Typist>
+          </NewDiv>
           <IconDiv>
-            <a href="https://github.com/scottmm374" target="blank">
+            <a
+              className="hvr-grow"
+              href="https://github.com/scottmm374"
+              target="blank"
+            >
               <FaGithub />
             </a>
-            <a href="https://twitter.com/Michell55256712" target="blank">
+            <a
+              className="hvr-grow"
+              href="https://twitter.com/Michell55256712"
+              target="blank"
+            >
               <FaTwitter />
             </a>
             <a
+              className="hvr-grow"
               href="https://www.linkedin.com/in/michelle-scott-920b05188/"
               target="blank"
             >
               <FaLinkedin />
             </a>
-            <a href="https://www.facebook.com/scottmichelle74" target="blank">
+            <a
+              className="hvr-grow"
+              href="https://www.facebook.com/scottmichelle74"
+              target="blank"
+            >
               <FaFacebook />
             </a>
-            <a href="https://github.com/scottmm374" target="blank">
+            <a
+              className="hvr-grow"
+              href="https://github.com/scottmm374"
+              target="blank"
+            >
               <FaEnvelope />
             </a>
           </IconDiv>

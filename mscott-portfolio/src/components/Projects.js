@@ -17,33 +17,32 @@ import {
   Button
 } from "reactstrap";
 
-const NewImg = styled(CardImg)`
-  width: 100%;
-  height: 50%;
-`;
-
 const Projects = () => {
   return (
     <Container>
       <Row>
-        <Col xl="6" md="6" xs="12">
+        <Col xl="4" md="6" xs="12">
           <Card>
-            <NewImg src={RecipeImg} />
+            <CardImg src={RecipeImg} />
+            <CardBody></CardBody>
           </Card>
         </Col>
-        <Col xl="6" md="6" xs="12">
+        <Col xl="4" md="6" xs="12">
           <Card>
-            <NewImg src={ToDoImg} />
+            <CardImg src={ToDoImg} />
+            <CardBody></CardBody>
           </Card>
         </Col>
-        <Col xl="6" md="6" xs="12">
+        <Col xl="4" md="6" xs="12">
           <Card>
-            <NewImg src={GithubImg} />
+            <CardImg src={GithubImg} />
+            <CardBody></CardBody>
           </Card>
         </Col>
-        <Col xl="6" md="6" xs="12">
+        <Col xl="4" md="6" xs="12">
           <Card>
-            <NewImg src={ImImg} />
+            <CardImg src={ImImg} />
+            <CardBody></CardBody>
           </Card>
         </Col>
       </Row>
