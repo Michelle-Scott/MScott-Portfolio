@@ -11,6 +11,13 @@ import {
 } from "react-icons/fa";
 import styled from "styled-components";
 
+const NewContainer = styled(Container)`
+  background: #ffffffc9;
+  padding-bottom: 13%;
+  padding-right: 97px;
+  padding-left: 46px;
+`;
+
 const NewDiv = styled.div`
   text-align: center;
   margin-top: 40%;
@@ -32,12 +39,12 @@ const IconDiv = styled.div`
 
 const Header = () => {
   return (
-    <Container fluid>
+    <NewContainer fluid>
       <Row>
-        <Col xl="6" sm="12">
+        <Col xl="6" md="6" xs="12">
           <NewImg src={MainImg} />
         </Col>
-        <Col xl="6" sm="12">
+        <Col xl="6" md="6" xs="12">
           <NewDiv>Full-Stack Web Developer</NewDiv>
           <IconDiv>
             <a href="https://github.com/scottmm374" target="blank">
@@ -61,7 +68,7 @@ const Header = () => {
           </IconDiv>
         </Col>
       </Row>
-    </Container>
+    </NewContainer>
   );
 };
 

@@ -11,6 +11,8 @@ const NewH3 = styled.h3`
 
 const NewDiv = styled.div`
   margin-bottom: 10%;
+  background: #ffffffc9;
+  padding: 10%;
 `;
 
 const Skills = props => {

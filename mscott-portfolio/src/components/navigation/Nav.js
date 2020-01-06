@@ -5,7 +5,7 @@ import styled from "styled-components";
 const NewNav = styled(Nav)`
   display: flex;
   justify-content: space-between;
-  background: #407c7f;
+  // background: white;
   padding: 1.5%;
 `;
 
