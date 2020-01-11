@@ -1,6 +1,6 @@
 import React from "react";
 import RecipeImg from "../assets/images/family-recipes.png";
-import ToDoImg from "../assets/images/todo.png";
+import MtgImg from "../assets/images/landing.png";
 import GithubImg from "../assets/images/github-friends.png";
 import ImImg from "../assets/images/im-tracker.png";
 import styled from "styled-components";
@@ -21,25 +21,28 @@ const Projects = () => {
   return (
     <Container>
       <Row>
-        <Col xl="4" md="6" xs="12">
+        <Col xl="6" md="6" xs="12">
           <Card>
             <CardImg src={RecipeImg} />
-            <CardBody></CardBody>
+            <CardBody>
+              <Button>Github</Button>
+              <Button>Project</Button>
+            </CardBody>
           </Card>
         </Col>
-        <Col xl="4" md="6" xs="12">
+        <Col xl="6" md="6" xs="12">
           <Card>
-            <CardImg src={ToDoImg} />
+            <CardImg src={MtgImg} />
             <CardBody></CardBody>
           </Card>
         </Col>
-        <Col xl="4" md="6" xs="12">
+        <Col xl="6" md="6" xs="12">
           <Card>
             <CardImg src={GithubImg} />
             <CardBody></CardBody>
           </Card>
         </Col>
-        <Col xl="4" md="6" xs="12">
+        <Col xl="6" md="6" xs="12">
           <Card>
             <CardImg src={ImImg} />
             <CardBody></CardBody>

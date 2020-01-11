@@ -7,6 +7,7 @@ const NewNav = styled(Nav)`
   justify-content: space-between;
 
   padding: 1.5%;
+  box-shadow: 1px 2px 1px black;
 `;
 
 // const NewContainer = styled(Container)`
