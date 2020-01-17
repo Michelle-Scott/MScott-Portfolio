@@ -47,7 +47,7 @@ const Header = () => {
         </Col>
         <Col xl="6" md="6" xs="12">
           <NewDiv>
-            <Typist>Full-Stack Web Developer</Typist>
+            <Typist>Full-Stack Web Developer 41</Typist>
           </NewDiv>
           <IconDiv>
             <a
